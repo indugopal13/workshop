@@ -1,0 +1,27 @@
+<html>
+<head>
+  <script type="text/javascript">
+  console.log("hi there")
+  console.info('This is info!'); //will display 'this is info' as an info
+console.warn('Lookout!'); // will display Lookout as a warning
+console.error('Something went wrong!'); //display message in danger color
+console.assert(2==2,'This is wrong!'); //true,msg
+console.assert(2==2,'This is wrong!'); // false,msg
+console.count("test");  //test: 1
+console.count("test");  //test: 2
+console.count("test");  //test: 3
+console.count("test");  //test: 4
+console.count("test");  //test: 5
+console.group('colors');
+console.log('red');
+console.log('orange');
+console.group('HEX');
+console.log('#FF4C89');
+console.log('#7186FE');
+console.groupEnd();
+console.log('blue');
+console.groupEnd();
+
+  </script>
+  </head>
+  </html>
